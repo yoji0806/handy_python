@@ -17,7 +17,7 @@ date_list_filled = []
 for date in date_list:
 	#if you want it 2020
 	d_str = '2020年' + date
-	d_date = atetime.datetime.strptime(d_str, '%Y年%m月%d日')
+	d_date = datetime.datetime.strptime(d_str, '%Y年%m月%d日')
 	date_list_filled.append(d_date)
 	
 	
